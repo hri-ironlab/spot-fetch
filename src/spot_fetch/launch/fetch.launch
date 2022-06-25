@@ -1,0 +1,4 @@
+<launch>
+  <node name="fetch" pkg="spot_fetch" type="fetch.py" output="screen" />
+  <include file="$(find zed_wrapper)/launch/zed2i.launch"/>
+</launch>

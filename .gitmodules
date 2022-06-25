@@ -1,0 +1,12 @@
+[submodule "src/geometry2"]
+	path = src/geometry2
+	url = https://github.com/ros/geometry2
+[submodule "src/roslint"]
+	path = src/roslint
+	url = https://github.com/ros/roslint.git
+[submodule "src/spot_ros"]
+	path = src/spot_ros
+	url = https://github.com/ori-drs/spot_ros.git
+[submodule "src/zed-ros-wrapper"]
+	path = src/zed-ros-wrapper
+	url = https://github.com/stereolabs/zed-ros-wrapper.git
