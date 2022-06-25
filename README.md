@@ -12,7 +12,7 @@ A program to get Boston Dynamics' Spot robot to fetch a tennis ball. Works with 
 - Velcro to attach to Spot if you want it to be able to pick up the ball
 
 **Setup:**
-- `git submodule init`, `git submodule update`
+- `git submodule update --init --recursive`
 - To build: `./build.bash`. The script should automatically detect your architecture -- if not, it will ask you if you're using x86_64 or aarch64.
 - Add your Spot's username, password, and IP address to `src/spot_ros/spot_driver/launch/driver.launch` 
 - Set `auto_claim` and `auto_power_on` to `True` in `src/spot_ros/spot_driver/config/spot_ros.yaml`
