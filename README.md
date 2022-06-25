@@ -35,4 +35,6 @@ A program to get Boston Dynamics' Spot robot to fetch a tennis ball. Works with 
 - Train an object detection model to detect the ball (currently using OpenCV which works, but object detection would be more reliable)
 - Get the ZED and Spot in the same tf tree so you can transform from the ZED to the Spot's body (instead of subtracting offsets)
 
+https://user-images.githubusercontent.com/67695217/175784390-49cb8af3-d215-4c48-99dc-18d4d66876af.MOV
+
 # Have fun!
